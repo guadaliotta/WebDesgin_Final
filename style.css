@@ -1,0 +1,122 @@
+  @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@500&display=swap');
+
+    h1, h2,h3 { font-family: 'Roboto', sans-serif;}
+    p {font-family:'Oswald', sans-serif;}
+
+        
+    #div1 {
+        background-color: rgb(58, 58, 58);
+        border: 10px;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        transition-property: background-color, transform;
+        transition-duration: 1000ms,5s;
+        transform:translateX(0);
+        transition-delay: 2s,0s;
+    }
+
+    img {
+        height: 40%;
+        width: 40%;
+        position: relative;
+        left: 450px;
+    }
+
+    img :hover {
+        transform: scale(1.5);
+        z-index: 3 ;}
+
+    #div2 {
+        background-color: rgb(255, 0, 0);
+        border: 50px;  border: 10px;
+        padding-left: 50px;
+        padding-top: 20px;
+        padding-right: 20px;
+        padding-bottom: 15px;
+    }
+
+    #div3 {
+            background-color: rgb(58, 58, 58);
+            border: 10px;
+            padding-left: 50px;
+            padding-top: 20px;
+            padding-right: 20px;
+            padding-bottom: 15px;
+            transition-property: background-color, transform;
+            transition-duration: 1000ms,5s;
+            transform:translateX(0);
+            transition-delay: 2s,0s; 
+        }  
+
+    #div4 {
+                background-color: black;
+                border: 10px;
+                padding-left: 50px;
+                padding-top: 20px;
+                padding-right: 20px;
+                padding-bottom: 15px; 
+            } 
+    
+    h1 {
+        width: 233px;
+        height: 20px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 125%;
+        color: white;
+        letter-spacing: 5px;
+        padding-left: 20px;
+    }
+
+    h2 {
+        width: 416px;
+        height: 100px;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 125%;
+        color: white;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    h3 {
+        text-transform:uppercase;
+        color: royalblue;
+        
+        
+    }
+
+    p {
+        width: 470px;
+        height: 75px;
+        color: white;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 125%;
+    }
+
+   .btn {
+    font-size: xx-small;
+    color: white;    
+    }
+
+    a:hover {
+        text-decoration: none;
+        border-color: white;
+        border-style: solid;
+        border-width: 5px;
+    }
+
+    nav {
+        height: 10.10vh;
+        padding: 0 8. 33vw; } 
+    
+
+    footer {
+        background-color: red;
+        width: 1440px;
+        height: 123px;
+        position: absolute;}
